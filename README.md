@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>
+  <h1 id="dev-cheatsheet">
     <strong>Dev Cheatsheet</strong>
   </h1> 
 </div>
@@ -8,12 +8,12 @@ Bem-vindo ao Dev Cheatsheet! Este repositório contém uma coleção de notas e 
 
 ## Seções
 
-- [Best Practices](#best-practices)
-  - [Conventional Commits](best-practices/conventional-commits.md)
-  - [Git Commands](best-practices/git-commands.md)
-- [Environment Setup](#environment-setup)
-  - [Node.js Setup](environment-setup/nodejs-setup.md)
-  - [Docker Setup](environment-setup/docker-setup.md)
+- **Best Practices**
+  - [Conventional Commits](best-practices/conventional-commits.md#conventional-commits)
+  - [Git Commands](best-practices/git-commands.md#git-commands)
+- **Environment Setup**
+  - [Node.js Setup](environment-setup/nodejs-setup.md#nodejs-setup)
+  - [Docker Setup](environment-setup/docker-setup.md#docker-setup)
 
 ## Descrição
 
