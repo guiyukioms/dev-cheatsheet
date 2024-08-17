@@ -1,6 +1,8 @@
-<p align="center">
-  <span style="font-size: 24px;"><strong>Conventional Commits</strong></span>
-</p>
+<div align="center">
+  <h1>
+    <strong>Conventional Commits</strong>
+  </h1> 
+</div>
 
 ## O que são Commits Convencionais?
 
