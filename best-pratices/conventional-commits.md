@@ -1,4 +1,6 @@
-# Conventional Commits
+<p align="center">
+  <strong>Conventional Commits</strong>
+</p>
 
 ## O que são Commits Convencionais?
 
@@ -26,16 +28,16 @@ A mensagem de commit convencional segue este formato:
 
 Aqui estão alguns tipos de commit frequentemente usados:
 
--**feat:** Uma nova funcionalidade para o usuário.
--**fix:** Correção de um bug.
--**docs:** Alterações na documentação.
--**style:** Alterações que não afetam o significado do código (espaços em branco, formatação, etc.).
--**refactor:** Alteração no código que não corrige um bug nem adiciona uma funcionalidade.
--**test:** Adição ou modificação de testes.
--**chore:** Atualização de tarefas de build, pacotes de terceiros, etc.
--**perf:** Melhoria de performance.
--**build:** Mudanças que afetam o sistema de build ou dependências externas (npm, pip, etc.).
--**ci:** Mudanças em arquivos de configuração de integração contínua.
+- **feat:** Uma nova funcionalidade para o usuário.
+- **fix:** Correção de um bug.
+- **docs:** Alterações na documentação.
+- **style:** Alterações que não afetam o significado do código (espaços em branco, formatação, etc.).
+- **refactor:** Alteração no código que não corrige um bug nem adiciona uma funcionalidade.
+- **test:** Adição ou modificação de testes.
+- **chore:** Atualização de tarefas de build, pacotes de terceiros, etc.
+- **perf:** Melhoria de performance.
+- **build:** Mudanças que afetam o sistema de build ou dependências externas (npm, pip, etc.).
+- **ci:** Mudanças em arquivos de configuração de integração contínua.
 
 
 ### Exemplos de Commits
@@ -49,10 +51,10 @@ Aqui estão alguns exemplos de mensagens de commit seguindo a convenção:
 - **test(cart)**: add tests for add to cart functionality
 - **chore(deps)**: update dependencies to latest versions
 
-#### Corpo e Rodapé de um Commit
+### Corpo e Rodapé de um Commit
 O corpo e o rodapé de um commit são opcionais, mas úteis em alguns casos:
 
--**Corpo:** se necessário, pode ser incluido um corpo com detalhes adicionais:
+- **Corpo:** se necessário, pode ser incluido um corpo com detalhes adicionais:
 
 ```plaintext
 fix(auth): resolve incorrect password validation
@@ -62,7 +64,7 @@ user input contained special characters. Updated the regex to match
 the correct criteria.
 ```
 
--**Rodapé:** para referências de issues ou breaking changes:
+- **Rodapé:** para referências de issues ou breaking changes:
 
 ```plaintext
 feat(api): add support for new payment method
