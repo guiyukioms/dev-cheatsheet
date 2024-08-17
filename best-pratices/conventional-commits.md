@@ -7,6 +7,7 @@
 ## O que são Commits Convencionais?
 
 Commits convencionais são uma convenção para escrever mensagens de commit de maneira padronizada. Essa prática ajuda a entender facilmente as mudanças feitas no código e automatiza a geração de changelogs, versão semântica, e outras tarefas relacionadas ao ciclo de vida do software.
+<br>
 
 ## Estrutura de um Commit Convencional
 
@@ -24,7 +25,7 @@ A mensagem de commit convencional segue este formato:
 - **Descrição**: Uma breve descrição das mudanças (no máximo 50 caracteres).
 - **Corpo (opcional)**: Explicação detalhada das mudanças, razões e impactos.
 - **Rodapé (opcional)**: Usado para referências de issues, breaking changes, ou outras informações adicionais.
-
+<br>
 
 ## Tipos de Commits Comuns
 
@@ -40,7 +41,7 @@ Aqui estão alguns tipos de commit frequentemente usados:
 - **perf:** Melhoria de performance.
 - **build:** Mudanças que afetam o sistema de build ou dependências externas (npm, pip, etc.).
 - **ci:** Mudanças em arquivos de configuração de integração contínua.
-
+<br>
 
 ### Exemplos de Commits
 Aqui estão alguns exemplos de mensagens de commit seguindo a convenção:
@@ -52,6 +53,7 @@ Aqui estão alguns exemplos de mensagens de commit seguindo a convenção:
 - **refactor(user-service)**: simplify user authentication logic
 - **test(cart)**: add tests for add to cart functionality
 - **chore(deps)**: update dependencies to latest versions
+<br>
 
 ### Corpo e Rodapé de um Commit
 O corpo e o rodapé de um commit são opcionais, mas úteis em alguns casos:
