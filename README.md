@@ -9,11 +9,11 @@ Bem-vindo ao Dev Cheatsheet! Este repositório contém uma coleção de notas e 
 ## Seções
 
 - **Best Practices**
-  - [Conventional Commits](best-practices/conventional-commits.md)
-  - [Git Commands](best-practices/git-commands.md)
+  - [Conventional Commits](https://github.com/guiyukioms/dev-cheatsheet/blob/main/best-pratices/conventional-commits.md)
+  - [Git Commands](https://github.com/guiyukioms/dev-cheatsheet/blob/main/best-pratices/git-commands.md)
 - **Environment Setup**
-  - [Node.js Setup](environment-setup/nodejs-setup.md)
-  - [Docker Setup](environment-setup/docker-setup.md)
+  - [Node.js Setup](https://github.com/guiyukioms/dev-cheatsheet/blob/main/environment-setup/nodeds-setup.md)
+  - [Docker Setup](https://github.com/guiyukioms/dev-cheatsheet/blob/main/environment-setup/docker-setup.md)
 
 ## Descrição
 
