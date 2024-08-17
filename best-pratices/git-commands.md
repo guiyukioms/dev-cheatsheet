@@ -25,7 +25,8 @@ Este documento contém uma lista de comandos Git mais comuns e úteis para facil
 git config --global user.name "Seu Nome"
 git config --global user.email "seu-email@example.com"
 ```
-<br><br>
+<br>
+
 - **Verificar configuração**
 ```bash
 git config --list
@@ -38,7 +39,7 @@ git config --list
 ```bash
 git init
 ```
-<br><br>
+<br>
 
 - **Clonar um repositório existente**
 ```bash
@@ -52,13 +53,13 @@ git clone <url-do-repositorio>
 ```bash
 git status
 ```
-<br><br>
+<br>
 
 - **Ver o histórico de commits**
 ```bash
 git log
 ```
-<br><br>
+<br>
 
 - **Ver o histórico de commits com uma linha por commit**
 ```bash
@@ -73,7 +74,7 @@ git log --oneline
 git add <arquivo> # Adiciona um arquivo expecífico
 git add .  # Adiciona todos os arquivos modificados
 ```
-<br><br>
+<br>
 
 - **Confirmar mudanças (commit)**
 ```bash
@@ -87,13 +88,13 @@ git commit -m "Mensagem do commit"
 ```bash
 git checkout -b <nome-da-branch>
 ```
-<br><br>
+<br>
 
 - **Trocar de branch**
 ```bash
 git checkout <nome-da-branch-desejada>
 ```
-<br><br>
+<br>
 
 - **Listar branches**
 ```bash
@@ -108,7 +109,7 @@ git branch
 git m
 erge <nome-da-branch>
 ```
-<br><br>
+<br>
 
 - **Rebase a branch atual com outra branch**
 ```bash
@@ -122,19 +123,19 @@ git rebase <nome-da-branch>
 ```bash
 git remote add origin <url-do-repositorio>
 ```
-<br><br>
+<br>
 
 - **Enviar commits para o repositório remoto**
 ```bash
 git push origin <nome-da-branch>
 ```
-<br><br>
+<br>
 
 - **Baixar mudanças do repositório remoto**
 ```bash
 git pull origin <nome-da-branch>
 ```
-<br><br>
+<br>
 
 - **Verificar os repositórios remotos configurados**
 ```bash
@@ -148,19 +149,19 @@ git remote -v
 ```bash
 git checkout -- <arquivo>
 ```
-<br><br>
+<br>
 
 - **Desfazer o último commit (mantendo as mudanças)**
 ```bash
 git reset --soft HEAD~1
 ```
-<br><br>
+<br>
 
 - **Desfazer o último commit e remover mudanças**
 ```bash
 git reset --hard HEAD~1
 ```
-<br><br>
+<br>
 
 - **Reverter um commit específico**
 ```bash
@@ -174,22 +175,22 @@ git revert <hash-do-commit>
 ```bash
 git diff
 ```
-<br><br>
+<br>
 
 - **Verificar o que foi alterado em arquivos entre commits**
 ```bash
 git diff <commit1> <commit2>
 ```
-<br><br>
+<br>
 
 - **Criar uma tag para marcar um ponto específico no histórico**
 ```bash
 git tag <nome-da-tag>
 ```
-<br><br>
+<br>
 
 - **Listar tags existentes**
 ```bash
 git tag
 ```
-<br><br>
+<br>
