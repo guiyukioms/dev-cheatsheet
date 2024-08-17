@@ -9,11 +9,11 @@ Bem-vindo ao Dev Cheatsheet! Este repositório contém uma coleção de notas e 
 ## Seções
 
 - **Best Practices**
-  - [Conventional Commits](best-practices/conventional-commits.md#conventional-commits)
-  - [Git Commands](best-practices/git-commands.md#git-commands)
+  - [Conventional Commits](best-practices/conventional-commits.md)
+  - [Git Commands](best-practices/git-commands.md)
 - **Environment Setup**
-  - [Node.js Setup](environment-setup/nodejs-setup.md#nodejs-setup)
-  - [Docker Setup](environment-setup/docker-setup.md#docker-setup)
+  - [Node.js Setup](environment-setup/nodejs-setup.md)
+  - [Docker Setup](environment-setup/docker-setup.md)
 
 ## Descrição
 
