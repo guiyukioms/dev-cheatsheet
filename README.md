@@ -1,10 +1,10 @@
 <div align="center">
   <h1 id="dev-cheatsheet">
-    <strong>Dev Cheatsheet</strong>
+    <strong>Cheatsheet</strong>
   </h1> 
 </div>
 
-Bem-vindo ao Dev Cheatsheet! Este repositório contém uma coleção de notas e referências úteis para desenvolvedores, incluindo práticas recomendadas de commits e comandos Git.
+Bem-vindo ao meu Cheatsheet! Este repositório contém uma coleção de notas e referências úteis para desenvolvedores, incluindo práticas recomendadas de commits e comandos Git.
 
 ## Seções
 
