@@ -31,28 +31,32 @@ A mensagem de commit convencional segue este formato:
 
 Aqui estão alguns tipos de commit frequentemente usados:
 
-- **feat:** Uma nova funcionalidade para o usuário.
-- **fix:** Correção de um bug.
-- **docs:** Alterações na documentação.
-- **style:** Alterações que não afetam o significado do código (espaços em branco, formatação, etc.).
-- **refactor:** Alteração no código que não corrige um bug nem adiciona uma funcionalidade.
-- **test:** Adição ou modificação de testes.
-- **chore:** Atualização de tarefas de build, pacotes de terceiros, etc.
-- **perf:** Melhoria de performance.
-- **build:** Mudanças que afetam o sistema de build ou dependências externas (npm, pip, etc.).
-- **ci:** Mudanças em arquivos de configuração de integração contínua.
+- `feat` - Uma nova funcionalidade para o usuário.
+- `fix`- Correção de um bug.
+- `docs` - Alterações na documentação.
+- `style` - Alterações que não afetam o significado do código (espaços em branco, formatação, etc.).
+- `refactor` - Alteração no código que não corrige um bug nem adiciona uma funcionalidade.
+- `test` - Adição ou modificação de testes.
+- `chore` - Atualização de tarefas de build, pacotes de terceiros, etc.
+- `perf` - Melhoria de performance.
+- `build` - Mudanças que afetam o sistema de build ou dependências externas (npm, pip, etc.).
+- `ci` - Mudanças em arquivos de configuração de integração contínua.
+- `raw` - Indicam mudanças relacionadas a arquivos de configurações, dados, features, parametros.
+- `cleanup` - Utilizados para remover código comentado, trechos desnecessários ou qualquer outra forma de limpeza do código-fonte, visando aprimorar sua legibilidade e manutenção.
+
+- `remove` - Commits do tipo remove indicam a exclusão de arquivos, diretórios ou funcionalidades obsoletas ou não utilizadas, reduzindo o tamanho e a complexidade do projeto e mantendo-o mais organizado.
 <br>
 
 ### Exemplos de Commits
 Aqui estão alguns exemplos de mensagens de commit seguindo a convenção:
 
-- **feat(login)**: add login page
-- **fix(api)**: resolve issue with timeout on user endpoint
-- **docs(readme)**: update installation instructions
-- **style(css)**: format header component
-- **refactor(user-service)**: simplify user authentication logic
-- **test(cart)**: add tests for add to cart functionality
-- **chore(deps)**: update dependencies to latest versions
+- `feat(login): add login page`
+- `fix(api): resolve issue with timeout on user endpoint`
+- `docs(readme): update installation instructions`
+- `style(css): format header component`
+- `refactor(user-service): simplify user authentication logic`
+- `test(cart): add tests for add to cart functionality`
+- `chore(deps): update dependencies to latest versions`
 <br>
 
 ### Corpo e Rodapé de um Commit
@@ -79,3 +83,296 @@ removed in the next major release.
 
 Closes #123
 ```
+<br>
+
+## Padrões de emojis
+
+<table>
+  <thead>
+    <tr>
+      <th>Tipo do commit</th>
+      <th>Emoji</th>
+      <th>Palavra-chave</th>
+    </tr>
+  </thead>
+ <tbody>
+    <tr>
+      <td>Acessibilidade</td>
+      <td>♿ <code>:wheelchair:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Adicionando um teste</td>
+      <td>✅ <code>:white_check_mark:</code></td>
+      <td><code>test</code></td>
+    </tr>
+    <tr>
+      <td>Atualizando a versão de um submódulo</td>
+      <td>⬆️ <code>:arrow_up:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Retrocedendo a versão de um submódulo</td>
+      <td>⬇️ <code>:arrow_down:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Adicionando uma dependência</td>
+      <td>➕ <code>:heavy_plus_sign:</code></td>
+      <td><code>build</code></td>
+    </tr>
+    <tr>
+      <td>Alterações de revisão de código</td>
+      <td>👌 <code>:ok_hand:</code></td>
+      <td><code>style</code></td>
+    </tr>
+    <tr>
+      <td>Animações e transições</td>
+      <td>💫 <code>:dizzy:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Bugfix</td>
+      <td>🐛 <code>:bug:</code></td>
+      <td><code>fix</code></td>
+    </tr>
+    <tr>
+      <td>Comentários</td>
+      <td>💡 <code>:bulb:</code></td>
+      <td><code>docs</code></td>
+    </tr>
+    <tr>
+      <td>Commit inicial</td>
+      <td>🎉 <code>:tada:</code></td>
+      <td><code>init</code></td>
+    </tr>
+    <tr>
+      <td>Configuração</td>
+      <td>🔧 <code>:wrench:</code></td>
+      <td><code>chore</code></td>
+    </tr>
+    <tr>
+      <td>Deploy</td>
+      <td>🚀 <code>:rocket:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Documentação</td>
+      <td>📚 <code>:books:</code></td>
+      <td><code>docs</code></td>
+    </tr>
+    <tr>
+      <td>Em progresso</td>
+      <td>🚧 <code>:construction:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Estilização de interface</td>
+      <td>💄 <code>:lipstick:</code></td>
+      <td><code>feat</code></td>
+    </tr>
+    <tr>
+      <td>Infraestrutura</td>
+      <td>🧱 <code>:bricks:</code></td>
+      <td><code>ci</code></td>
+    </tr>
+    <tr>
+      <td>Lista de ideias (tasks)</td>
+      <td>🔜 <code> :soon: </code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Mover/Renomear</td>
+      <td>🚚 <code>:truck:</code></td>
+      <td><code>chore</code></td>
+    </tr>
+    <tr>
+      <td>Novo recurso</td>
+      <td>✨ <code>:sparkles:</code></td>
+      <td><code>feat</code></td>
+    </tr>
+    <tr>
+      <td>Package.json em JS</td>
+      <td>📦 <code>:package:</code></td>
+      <td><code>build</code></td>
+    </tr>
+    <tr>
+      <td>Performance</td>
+      <td>⚡ <code>:zap:</code></td>
+      <td><code>perf</code></td>
+    </tr>
+    <tr>
+        <td>Refatoração</td>
+        <td>♻️ <code>:recycle:</code></td>
+        <td><code>refactor</code></td>
+    </tr>
+    <tr>
+      <td>Limpeza de Código</td>
+      <td>🧹 <code>:broom:</code></td>
+      <td><code>cleanup</code></td>
+    </tr>
+    <tr>
+      <td>Removendo um arquivo</td>
+      <td>🗑️ <code>:wastebasket:</code></td>
+      <td><code>remove</code></td>
+    </tr>
+    <tr>
+      <td>Removendo uma dependência</td>
+      <td>➖ <code>:heavy_minus_sign:</code></td>
+      <td><code>build</code></td>
+    </tr>
+    <tr>
+      <td>Responsividade</td>
+      <td>📱 <code>:iphone:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Revertendo mudanças</td>
+      <td>💥 <code>:boom:</code></td>
+      <td><code>fix</code></td>
+    </tr>
+    <tr>
+      <td>Segurança</td>
+      <td>🔒️ <code>:lock:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>SEO</td>
+      <td>🔍️ <code>:mag:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tag de versão</td>
+      <td>🔖 <code>:bookmark:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Teste de aprovação</td>
+      <td>✔️ <code>:heavy_check_mark:</code></td>
+      <td><code>test</code></td>
+    </tr>
+    <tr>
+      <td>Testes</td>
+      <td>🧪 <code>:test_tube:</code></td>
+      <td><code>test</code></td>
+    </tr>
+    <tr>
+      <td>Texto</td>
+      <td>📝 <code>:pencil:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tipagem</td>
+      <td>🏷️ <code>:label:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tratamento de erros</td>
+      <td>🥅 <code>:goal_net:</code></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Dados</td>
+      <td>🗃️ <code>:card_file_box:</code></td>
+      <td><code>raw</code></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+## Exemplos de Commits com Emoji
+
+<table>
+  <thead>
+    <tr>
+      <th>Comando Git</th>
+      <th>Resultado no GitHub</th>
+    </tr>
+  </thead>
+ <tbody>
+    <tr>
+      <td>
+        <code>git commit -m ":tada: Commit inicial"</code>
+      </td>
+      <td>🎉 Commit inicial</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":books: docs: Atualização do README"</code>
+      </td>
+      <td>📚 docs: Atualização do README</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":bug: fix: Loop infinito na linha 50"</code>
+      </td>
+      <td>🐛 fix: Loop infinito na linha 50</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":sparkles: feat: Página de login"</code>
+      </td>
+      <td>✨ feat: Página de login</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":bricks: ci: Modificação no Dockerfile"</code>
+      </td>
+      <td>🧱 ci: Modificação no Dockerfile</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":recycle: refactor: Passando para arrow functions"</code>
+      </td>
+      <td>♻️ refactor: Passando para arrow functions</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":zap: perf: Melhoria no tempo de resposta"</code>
+      </td>
+      <td>⚡ perf: Melhoria no tempo de resposta</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":boom: fix: Revertendo mudanças ineficientes"</code>
+      </td>
+      <td>💥 fix: Revertendo mudanças ineficientes</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":lipstick: feat: Estilização CSS do formulário"</code>
+      </td>
+      <td>💄 feat: Estilização CSS do formulário</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":test_tube: test: Criando novo teste"</code>
+      </td>
+      <td>🧪 test: Criando novo teste</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":bulb: docs: Comentários sobre a função LoremIpsum( )"</code>
+      </td>
+      <td>💡 docs: Comentários sobre a função LoremIpsum( )</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":card_file_box: raw: RAW Data do ano aaaa"</code>
+      </td>
+      <td>🗃️ raw: RAW Data do ano aaaa</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":broom: cleanup: Eliminando blocos de código comentados e variáveis não utilizadas na função de validação de formulário"</code>
+      </td>
+      <td>🧹 cleanup: Eliminando blocos de código comentados e variáveis não utilizadas na função de validação de formulário</td>
+    </tr>
+    <tr>
+      <td>
+        <code>git commit -m ":wastebasket: remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua"</code>
+      </td>
+      <td>🗑️ remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua</td>
+    </tr>
+  </tbody>
+</table>
