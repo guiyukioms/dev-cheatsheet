@@ -14,7 +14,7 @@ Este documento contém uma lista de comandos Git mais comuns e úteis para facil
 - [Adicionar e Confirmar Mudanças](#adicionar-e-confirmar-mudanças): Comandos para adicionar arquivos ao próximo commit e confirmar mudanças.
 - [Trabalhando com Branches](#trabalhando-com-branches): Comandos para criar, trocar e excluir branches.
 - [Mesclagem e Rebase](#mesclagem-e-rebase): Comandos para mesclar e rebase branches.
-- [Sincronização com o Repositório Remoto](#sincronização-com-o-repositório-remoto): Comandos para adicionar, enviar e baixar mudanças do repositório remoto.
+- [Sincronização com o Repositório Remoto](#sincronização-com-o-repositório-remoto-github): Comandos para adicionar, enviar e baixar mudanças do repositório remoto.
 - [Reversão e Undo](#reversão-e-undo): Comandos para desfazer mudanças e reverter commits.
 - [Outros Comandos Úteis](#outros-comandos-úteis): Comandos adicionais para operações diversas com Git.
 
