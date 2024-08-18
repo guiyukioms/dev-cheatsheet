@@ -7,6 +7,16 @@
 ## O que são Commits Convencionais?
 
 Commits convencionais são uma convenção para escrever mensagens de commit de maneira padronizada. Essa prática ajuda a entender facilmente as mudanças feitas no código e automatiza a geração de changelogs, versão semântica, e outras tarefas relacionadas ao ciclo de vida do software.
+<br><br>
+
+## Seções
+
+- [Estrutura de um Commit Convencional](#estrutura-de-um-commit-convencional)
+- [Tipos de Commits Comuns](#tipos-de-commits-comuns)
+  - [Exemplos de Commits](#exemplos-de-commits)
+  - [Corpo e Rodapé de um Commit](#corpo-e-rodapé-de-um-commit)
+- [Padrões de Emojis](#padrões-de-emojis)
+- [Exemplos de Commits com Emoji](#exemplos-de-commits-com-emoji)
 <br>
 
 ## Estrutura de um Commit Convencional
@@ -85,7 +95,7 @@ Closes #123
 ```
 <br>
 
-## Padrões de emojis
+## Padrões de Emojis
 
 <table>
   <thead>
@@ -285,94 +295,94 @@ Closes #123
 <table>
   <thead>
     <tr>
-      <th>Comando Git</th>
+      <th>Git Command</th>
       <th>Resultado no GitHub</th>
     </tr>
   </thead>
  <tbody>
     <tr>
       <td>
-        <code>git commit -m ":tada: Commit inicial"</code>
+        <code>git commit -m ":tada: Initial commit"</code>
       </td>
-      <td>🎉 Commit inicial</td>
+      <td>🎉 Initial commit</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":books: docs: Atualização do README"</code>
+        <code>git commit -m ":books: docs: Update README"</code>
       </td>
-      <td>📚 docs: Atualização do README</td>
+      <td>📚 docs: Update README</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":bug: fix: Loop infinito na linha 50"</code>
+        <code>git commit -m ":bug: fix: Infinite loop at line 50"</code>
       </td>
-      <td>🐛 fix: Loop infinito na linha 50</td>
+      <td>🐛 fix: Infinite loop at line 50</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":sparkles: feat: Página de login"</code>
+        <code>git commit -m ":sparkles: feat: Login page"</code>
       </td>
-      <td>✨ feat: Página de login</td>
+      <td>✨ feat: Login page</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":bricks: ci: Modificação no Dockerfile"</code>
+        <code>git commit -m ":bricks: ci: Modification to Dockerfile"</code>
       </td>
-      <td>🧱 ci: Modificação no Dockerfile</td>
+      <td>🧱 ci: Modification to Dockerfile</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":recycle: refactor: Passando para arrow functions"</code>
+        <code>git commit -m ":recycle: refactor: Switching to arrow functions"</code>
       </td>
-      <td>♻️ refactor: Passando para arrow functions</td>
+      <td>♻️ refactor: Switching to arrow functions</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":zap: perf: Melhoria no tempo de resposta"</code>
+        <code>git commit -m ":zap: perf: Improvement in response time"</code>
       </td>
-      <td>⚡ perf: Melhoria no tempo de resposta</td>
+      <td>⚡ perf: Improvement in response time</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":boom: fix: Revertendo mudanças ineficientes"</code>
+        <code>git commit -m ":boom: fix: Reverting inefficient changes"</code>
       </td>
-      <td>💥 fix: Revertendo mudanças ineficientes</td>
+      <td>💥 fix: Reverting inefficient changes</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":lipstick: feat: Estilização CSS do formulário"</code>
+        <code>git commit -m ":lipstick: feat: CSS styling of the form"</code>
       </td>
-      <td>💄 feat: Estilização CSS do formulário</td>
+      <td>💄 feat: CSS styling of the form</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":test_tube: test: Criando novo teste"</code>
+        <code>git commit -m ":test_tube: test: Creating new test"</code>
       </td>
-      <td>🧪 test: Criando novo teste</td>
+      <td>🧪 test: Creating new test</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":bulb: docs: Comentários sobre a função LoremIpsum( )"</code>
+        <code>git commit -m ":bulb: docs: Comments on LoremIpsum() function"</code>
       </td>
-      <td>💡 docs: Comentários sobre a função LoremIpsum( )</td>
+      <td>💡 docs: Comments on LoremIpsum() function</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":card_file_box: raw: RAW Data do ano aaaa"</code>
+        <code>git commit -m ":card_file_box: raw: RAW Data for year yyyy"</code>
       </td>
-      <td>🗃️ raw: RAW Data do ano aaaa</td>
+      <td>🗃️ raw: RAW Data for year yyyy</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":broom: cleanup: Eliminando blocos de código comentados e variáveis não utilizadas na função de validação de formulário"</code>
+        <code>git commit -m ":broom: cleanup: Removing commented-out code blocks and unused variables in the form validation function"</code>
       </td>
-      <td>🧹 cleanup: Eliminando blocos de código comentados e variáveis não utilizadas na função de validação de formulário</td>
+      <td>🧹 cleanup: Removing commented-out code blocks and unused variables in the form validation function</td>
     </tr>
     <tr>
       <td>
-        <code>git commit -m ":wastebasket: remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua"</code>
+        <code>git commit -m ":wastebasket: remove: Removing unused files from the project to maintain organization and continuous update"</code>
       </td>
-      <td>🗑️ remove: Removendo arquivos não utilizados do projeto para manter a organização e atualização contínua</td>
+      <td>🗑️ remove: Removing unused files from the project to maintain organization and continuous update</td>
     </tr>
   </tbody>
 </table>
