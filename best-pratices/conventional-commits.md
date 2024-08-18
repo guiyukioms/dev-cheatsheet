@@ -54,7 +54,7 @@ Aqui estão alguns tipos de commit frequentemente usados:
 - `raw` - Indicam mudanças relacionadas a arquivos de configurações, dados, features, parametros.
 - `cleanup` - Utilizados para remover código comentado, trechos desnecessários ou qualquer outra forma de limpeza do código-fonte, visando aprimorar sua legibilidade e manutenção.
 
-- `remove` - Commits do tipo remove indicam a exclusão de arquivos, diretórios ou funcionalidades obsoletas ou não utilizadas, reduzindo o tamanho e a complexidade do projeto e mantendo-o mais organizado.
+- `remove` - Indicam a exclusão de arquivos, diretórios ou funcionalidades obsoletas ou não utilizadas, reduzindo o tamanho e a complexidade do projeto e mantendo-o mais organizado.
 <br>
 
 ### Exemplos de Commits
