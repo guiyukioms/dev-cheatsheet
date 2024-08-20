@@ -100,19 +100,19 @@ git checkout <nome-da-branch-desejada>
 ```bash
 git branch
 ```
-<br><br>
+<br>
 
 - **Renomear uma branch**
 ```bash
 git branch -m <novo-nome>
 ```
-<br><br>
+<br>
 
 - **Apagar uma branch local**
 ```bash
 git branch -d <nome-da-branch>
 ```
-<br><br>
+<br>
 
 - **Apagar uma branch remota**
 ```bash
