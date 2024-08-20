@@ -102,12 +102,29 @@ git branch
 ```
 <br><br>
 
-## Mesclagem e Rebase
-
-- **Mesclar uma branch na branch atual**
+- **Renomear uma branch**
 ```bash
-git m
-erge <nome-da-branch>
+git branch -m <novo-nome>
+```
+<br><br>
+
+- **Apagar uma branch local**
+```bash
+git branch -d <nome-da-branch>
+```
+<br><br>
+
+- **Apagar uma branch remota**
+```bash
+git push origin --delete <nome-da-branch>
+```
+<br><br>
+
+## Merge e Rebase
+
+- **Mesclar (Merge) uma branch na branch atual**
+```bash
+git merge <nome-da-branch>
 ```
 <br>
 
@@ -131,7 +148,7 @@ git push origin <nome-da-branch>
 ```
 <br>
 
-- **Baixar mudanças do repositório remoto**
+- **Baixar/Atualizar mudanças do repositório remoto**
 ```bash
 git pull origin <nome-da-branch>
 ```
