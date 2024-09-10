@@ -154,6 +154,12 @@ git pull origin <nome-da-branch>
 ```
 <br>
 
+- **Atualizar lista de Branches**
+```bash
+git fetch origin>
+```
+<br>
+
 - **Verificar os repositórios remotos configurados**
 ```bash
 git remote -v
