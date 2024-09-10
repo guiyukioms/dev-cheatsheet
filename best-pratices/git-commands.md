@@ -156,7 +156,7 @@ git pull origin <nome-da-branch>
 
 - **Atualizar lista de Branches**
 ```bash
-git fetch origin>
+git fetch origin
 ```
 <br>
 
