@@ -86,7 +86,8 @@ git commit -m "Mensagem do commit"
 
 - **Criar uma nova branch e mudar para ela**
 ```bash
-git checkout -b <nome-da-branch>
+git checkout -b <nome-da-branch> # cria a branch e troca para ela
+git push -u origin <nome-da-branch> # sincroniza a nova branch com o repositório remoto
 ```
 <br>
 
@@ -154,7 +155,7 @@ git pull origin <nome-da-branch>
 ```
 <br>
 
-- **Atualizar lista de Branches**
+- **Atualizar lista de Branches (Remoto -> Local)**
 ```bash
 git fetch origin
 ```
